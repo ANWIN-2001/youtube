@@ -1,9 +1,27 @@
-.search-bar{
-    display:block;
-   
-}
 .header{
     height: 60px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+.left-section{
+    width: 300px;
+    background-color: beige;
+}
+.middle-section{
+    flex: 1;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: blue;
+    max-width: 700px;
+}
+.right-section{
+    width: 300px;
+    background-color: antiquewhite;
+}
+/*  */
+.search-bar{
+   display: flex;
+   background-color: chartreuse;
+   
 }
