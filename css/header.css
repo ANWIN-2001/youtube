@@ -4,24 +4,84 @@
     flex-direction: row;
     justify-content: space-between;
 }
+.left-tab{
+    display: flex;
+}
+#left1img{
+    width: 30px;
+    margin: 10px;
+}
+#youlogo{
+    width: 130px;
+    margin: 10px;
+}
+#upload{
+    width: 50px;
+    margin: 10px;
+}
+#apps{
+    width: 50px;
+    margin: 10px;
+}
+#serach{
+    width: 50px;
+    /* margin: 10px; */
+    margin-left: 5px;
+    background-color: lightgrey;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+
+
+}
+#voice{
+    width: 50px;
+    /* margin: 10px; */
+    margin-left: 25px;
+    background-color: lightgrey;
+    border-radius: 35px;
+}
+#notifications{
+    width: 50px;
+    margin: 10px;
+}
 .left-section{
-    width: 300px;
     background-color: beige;
+    display: flex;
+    align-items: center;
+
 }
 .middle-section{
     flex: 1;
     margin-left: 50px;
     margin-right: 50px;
-    background-color: blue;
+    /* background-color: blue; */
     max-width: 700px;
+    display: flex;
+    align-items: center;
 }
 .right-section{
-    width: 300px;
+    display: flex;
     background-color: antiquewhite;
 }
 /*  */
 .search-bar{
-   display: flex;
-   background-color: chartreuse;
+ 
+   height: 40px;
+   width: 400px;
+
+   background-color:lightgrey;
+   
    
 }
+/* .search-bar {
+    flex: 1;
+    height: 36px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    width: 0;
+  } */
