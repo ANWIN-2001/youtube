@@ -1,0 +1,17 @@
+.left-tab{
+    /* background-color: aqua; */
+    width: 80px;
+    position: fixed;
+    left: 0px;
+    top: 60px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+}
+.lefticons{
+    display: inline-block;
+    width: 70px;
+    border-style: hidden;
+}

@@ -9,6 +9,8 @@
     grid-template-columns:1fr 1fr 1fr;
     column-gap: 10px;
     row-gap: 25px;
+    /* padding-top: 90px; */
+    background-color: black;
 
 }
 .video-title{
