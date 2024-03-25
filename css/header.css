@@ -14,9 +14,11 @@
 }
 
 #left1img{
-    width: 40px;
-    margin: 10px;
+    width: 50px;
+    margin-right: 10px;
     border-style: hidden;
+    margin: 20px;
+    background-color: white;
 }
 #youlogo{
     width: 130px;

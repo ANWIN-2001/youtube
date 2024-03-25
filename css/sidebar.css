@@ -14,4 +14,12 @@
     display: inline-block;
     width: 70px;
     border-style: hidden;
+    background-color: white;
+    margin-left: 20px;
+    /* background-color: lightgrey; */
+    /* border-color: lightgray; */
+
+}
+.lefticons:hover{
+    background-color: green;
 }
